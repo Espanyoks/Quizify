@@ -1,18 +1,18 @@
-// import React from "react";
+import React from "react";
 
-// const Progress = ({ questionIndex, username, numQuestions }) => {
-//   return (
-//     <header className="progress">
-//       <progress max={numQuestions} value={questionIndex + 1} />
-//       <p>
-//         Question <strong>{questionIndex + 1}</strong> / {numQuestions}
-//       </p>
+const Progress = ({ questionIndex, username, numQuestions }) => {
+  return (
+    <header className="progress">
+      <progress max={numQuestions} value={questionIndex + 1} />
+      <p>
+        Question <strong>{questionIndex + 1}</strong> / {numQuestions}
+      </p>
 
-//       <p>
-//         Hi, <strong style={{ textTransform: "uppercase" }}>{username}</strong>
-//       </p>
-//     </header>
-//   );
-// };
+      <p>
+        Hi, <strong style={{ textTransform: "uppercase" }}>{username}</strong>
+      </p>
+    </header>
+  );
+};
 
-// export default Progress;
+export default Progress;

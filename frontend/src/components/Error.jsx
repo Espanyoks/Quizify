@@ -1,11 +1,11 @@
-// import React from 'react'
+import React from 'react'
 
-// const Error = ({error}) => {
-//   return (
-//     <p className="error" style={{marginBottom:"10px"}}>
-//       {error}
-//     </p>
-//   )
-// }
+const Error = ({error}) => {
+  return (
+    <p className="error" style={{marginBottom:"10px"}}>
+      {error}
+    </p>
+  )
+}
 
-// export default Error
+export default Error;
